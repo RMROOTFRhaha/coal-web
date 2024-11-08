@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./components/ui/card"
+import { Input } from "./components/ui/input"
 
 
 function LogIn() {
@@ -16,12 +17,13 @@ function LogIn() {
         
         <Card>
           <CardHeader>
-            <CardTitle>Login</CardTitle>
+            <CardTitle>Coal Login</CardTitle>
             <CardDescription>Login using your email address and password</CardDescription>
           </CardHeader>
 
           <CardContent>
-            
+            <Input type="email" placeholder="Email Address" />
+            <Input type="password" placeholder="Password" />
           </CardContent>
 
           <CardFooter>
